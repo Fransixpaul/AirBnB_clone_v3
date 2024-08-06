@@ -20,7 +20,6 @@ class DBStorage:
         'User': user.User
     }
 
-    """ handles storage for database """
     __engine = None
     __session = None
 
